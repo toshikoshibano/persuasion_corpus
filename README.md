@@ -1,11 +1,11 @@
 <p align="center">
-<img src="image/banner.png" alt="banner"/>
+<img src="image/banner_persuasion_corpus.png" alt="Persuasion Corpus Banner"/>
 </p>
 
 [Corpus](https://drive.google.com/drive/folders/1mjYBNIJW6TkdIdxkeuXMBHrFOEEH2U17?usp=sharing) - last updated Mar 5, 2022
 
 # Source of the corpus
-This corpus was built by scraping the subreddit called "Change My View" [CMV](https://www.reddit.com/r/changemyview/) (scraper is available [here](https://github.com/toshikoshibano/reddit_scraper)). 
+This corpus was built by scraping the subreddit called "Change My View [CMV](https://www.reddit.com/r/changemyview/)" (scraper is available [here](https://github.com/toshikoshibano/reddit_scraper)). 
 
 CMV is a very popular community for online discussion dedicated to civil discourse. According to the organizers, this community is built around the idea that understanding comes first for resolving our differences. To that end, they promote productive conversations that are marked with respect and openness" (for more details, see [here](https://www.reddit.com/r/changemyview/wiki/index)).
 
@@ -69,4 +69,4 @@ The data is comprised of three files.
 | done            | list     | DONE list for a scraper                                               |
 | invalid_threads | list     | Threads that contain deleted or removed post/user.                    |
 
-The log fields are used for controling the scraping process. For details, see `README.md` in `src/reddit_scraper`.
+The log fields are used for controling the scraping process. For details, see the [Reddit Scraper documentation](https://github.com/toshikoshibano/reddit_scraper).
